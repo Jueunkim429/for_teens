@@ -1,0 +1,119 @@
+/*하이퍼링크*/
+a:link{
+    color:black;
+    text-decoration:none;
+
+}
+a:visited{
+    color:black;
+}
+
+/*메인*/
+html{
+    font-family: 'Gowun Batang', serif;
+    background-color: rgb(239,249,255);
+}
+
+.main{
+   display: flex;
+    flex-direction: column;
+    width : auto;
+    height: auto;
+    /*border : solid blue;*/
+    }
+    
+.menu{
+    display: flex;
+    border-bottom: solid rgb(86,188,252);
+    border-width: 0.5px;
+    }
+    
+    .text1{
+        height: auto;
+        /*border : solid red;*/
+        align-items: center;
+    }
+    
+    .text2{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        height: auto;
+        /*border : solid red;*/
+        align-items: center;
+    }
+    
+    .text3{
+        margin-left: auto;
+        margin-top: auto;
+        align-items: right;
+        /*border : solid wheat;*/
+        font-size: 15pt;
+    }
+    
+    .button{
+        margin-left: auto;
+        margin-top: auto;
+        width : 18%;
+        align-items: right;
+        /*border : solid wheat;*/
+    }
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    width : auto;
+    height: auto;
+   /*border : solid blue;*/
+}
+
+.photo1{
+    width: 50%;
+    height: auto;
+    /*border : solid green;*/
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    /*border : solid pink;*/
+}
+
+.txt{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    /*border : solid purple;*/
+    justify-content: center;
+}
+
+.txt1{
+    display: flex;
+    width: auto;
+    height: auto;
+    /*border : solid purple;*/
+    margin-left: 5%;
+}
+
+.mapbox{
+    width: auto;
+    height: auto;
+    /*border : solid powderblue;*/
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    /*border: solid black;*/
+}
+
+.copyright{
+    margin-left: auto;
+    font-size: 10pt;
+    /*border: solid blue;*/
+    color:rgb(175,171,171) ;
+}

@@ -1,0 +1,76 @@
+/*하이퍼링크*/
+a:link{
+    color:black;
+    text-decoration:none;
+
+}
+a:visited{
+    color:black;
+}
+
+body{
+    background-color: rgb(252,238,240);
+}
+/*메인*/
+.main{
+    display: flex;
+    flex-direction: column;
+    width : auto;
+    height: auto;
+    /*border : solid blue;*/
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    width : auto;
+    height: auto;
+    /*border : solid red;*/
+    text-align: center;
+}
+
+.photo1{
+    display: flex;
+    height: 700px;
+    border-top : solid rgb(149,31,52);
+    border-width: 0.5px;
+    background-image: url("img/map.png");
+    background-repeat :no-repeat;
+    background-position: center;
+    background-size:auto;
+}
+
+
+.txt_eun{
+    position: absolute;
+    margin-left:  35%;
+    margin-top:  10%;
+    /*border : solid pink;*/
+}
+
+.txt_seo{
+    position: absolute;
+    margin-left:  50%;
+    margin-top:  25%;
+    /*border : solid red;*/
+}
+
+.txt_ma{
+    position: absolute;
+    margin-left:  30%;
+    margin-top:  30%;
+    /*border : solid red;*/
+} 
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    /*border: solid black;*/
+}
+
+.copyright{
+    margin-left: auto;
+    font-size: 10pt;
+    /*border: solid blue;*/
+    color:rgb(175,171,171) ;
+}

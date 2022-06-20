@@ -1,0 +1,57 @@
+/*하이퍼링크*/
+a:link{
+    color:black;
+    text-decoration:none;
+
+}
+a:visited{
+    color:black;
+}
+
+/*메인*/
+.main{
+    display: flex;
+    flex-direction: column;
+    width : auto;
+    height: auto;
+    border : solid blue;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    width : auto;
+    height: auto;
+    border : solid red;
+}
+
+.photo1{
+    display: flex;
+    width : 100%;
+    height: 100%;
+    border : solid green;
+}
+
+.img_main{
+    display: flex;
+    position: relative;
+    left: 30%;
+    border : solid yellow;
+}
+
+.txt_eun{
+    position: relative;
+    top: -150%; 
+    border : solid red;
+}
+
+.txt_seo{
+    position: relative;
+    top: 60%; 
+    border : solid red;
+}
+
+.txt_ma{
+    position: relative;
+    border : solid red;
+}
