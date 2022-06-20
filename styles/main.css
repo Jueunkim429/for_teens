@@ -34,7 +34,7 @@ body{
     height: 700px;
     border-top : solid rgb(149,31,52);
     border-width: 0.5px;
-    background-image: url("img/map.png");
+    background-image: url("../img/map.png");
     background-repeat :no-repeat;
     background-position: center;
     background-size:auto;
